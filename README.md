@@ -16,3 +16,11 @@ Contains the messaging abstractions for the Queue and Event Bus:
     - `DeadLetterAsync(messages, reason, errorDescription, cancellationToken)`: Removes the messages and moves them to the dead letter queue.
 - **Message\<T>:**
 - **Message:** A generic message implementation.
+
+Contains Abstractions for the SMS, keeping track of Sms messages retrieved from the queue and sent to the provider
+- **ISmsLog\<T>**
+- **ISmsProvider\<T>**
+
+
+
+
